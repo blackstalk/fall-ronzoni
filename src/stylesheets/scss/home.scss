@@ -268,14 +268,14 @@ section.recipes {
                 }
                 &:hover {
                     @include box-shadow;
-                    .recipe-outer {
-                        .recipe-item {
-                            width: 100%;
-                            .recipe-img {
-                                background-size: 105%;
-                            }
-                        }
-                    }
+                    // .recipe-outer {
+                    //     .recipe-item {
+                    //         width: 100%;
+                    //         .recipe-img {
+                    //             background-size: 105%;
+                    //         }
+                    //     }
+                    // }
                 }
                 @include mediaMaxWidth(750) {
                     width: calc(50% - 20px);
